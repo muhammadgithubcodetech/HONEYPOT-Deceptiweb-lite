@@ -36,7 +36,6 @@ This project is meant to:
   - Kill IDS
 
 ---
-
 ## Visuals
 
 
@@ -44,13 +43,20 @@ This project is meant to:
 
 <img width="695" height="275" alt="login" src="https://github.com/user-attachments/assets/8d6ec1f5-874f-4c84-bbf7-fac46164b5aa" />
 
+
+
+
 - admin page
 
  <img width="1087" height="933" alt="image" src="https://github.com/user-attachments/assets/5393c6f8-62da-4a2f-b8a4-a10942da7d3f" />
  
+
+
 - Screenshot of the deceptive dashboard
 
    <img width="1060" height="771" alt="dashboard" src="https://github.com/user-attachments/assets/faf73894-481b-49bd-8f1e-09c44cb8386a" />
+
+
 
 
   <img width="1072" height="817" alt="reset" src="https://github.com/user-attachments/assets/7e396d7b-449e-4a3f-a6f2-e1dbda92506e" />
@@ -59,8 +65,10 @@ This project is meant to:
 
       
 - Sample of `attacks.log` entries
-- 
+
+ 
   <img width="1047" height="202" alt="logs" src="https://github.com/user-attachments/assets/efd285fd-4139-4964-8f1e-f31e15ffa977" />
+
 
 
 
@@ -68,10 +76,12 @@ This project is meant to:
 
 
 
+
    <img width="468" height="72" alt="logsreset" src="https://github.com/user-attachments/assets/a924c36c-d1fa-4c36-a7e7-f39ce4de0c04" />
 
 
 ---
+
 
 ## Technologies Used
 
