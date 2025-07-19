@@ -1,0 +1,14 @@
+| Category              | Input Example                      | What It Simulates              |
+| --------------------- | ---------------------------------- | ------------------------------ |
+| **SQL Injection**     | `' OR 1=1--`                       | Classic auth bypass using SQL  |
+| **SQL Injection**     | `admin' --`                        | Bypasses login by ending query |
+| **SQL Injection**     | `SELECT * FROM users`              | Raw query execution            |
+| **XSS**               | `<script>alert('XSS')</script>`    | Script injection               |
+| **XSS**               | `<img src=x onerror=alert(1)>`     | Image tag XSS                  |
+| **Command Injection** | `admin; whoami`                    | Unix command injection         |
+| **Command Injection** | `$(ls)` or `` `cat /etc/passwd` `` | Command subshell               |
+| **Path Traversal**    | `../../etc/passwd`                 | Linux file traversal           |
+| **Path Traversal**    | `..\\..\\windows\\system32`        | Windows traversal              |
+| **LDAP Injection**    | `admin*)(&)`                       | LDAP filter bypass             |
+| **Brute Force**       | `admin` / `123456`                 | Common guess                   |
+| **Brute Force**       | `root` / `password123`             | Known defaults                 |

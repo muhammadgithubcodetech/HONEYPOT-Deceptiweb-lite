@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #eee;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 60px;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .message {
+            background-color: #2e7d32;
+            color: #c8f7c5;
+            padding: 10px 20px;
+            margin-bottom: 25px;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+        .button {
+            background-color: #333;
+            color: #eee;
+            padding: 14px 28px;
+            margin: 10px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 250px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #555;
+        }
+        form {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Admin Panel</h1>
+
+    {% if message %}
+        <div class="message">{{ message }}</div>
+    {% endif %}
+
+    <form action="/trigger-reset" method="POST">
+        <button class="button">Reset Firewall Logs</button>
+    </form>
+
+    <form action="/clear-logs" method="POST">
+        <button class="button">Clear Admin Logs</button>
+    </form>
+
+    <form action="/view-files" method="GET">
+        <button class="button">View System Files</button>
+    </form>
+
+    <form action="/user-manager" method="GET">
+        <button class="button">User Manager</button>
+    </form>
+
+    <form action="/kill-ids" method="POST">
+        <button class="button">Kill IDS</button>
+    </form>
+</body>
+</html>
