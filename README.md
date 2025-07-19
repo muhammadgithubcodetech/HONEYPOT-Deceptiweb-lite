@@ -41,44 +41,72 @@ This project is meant to:
 
 -Screenshot of the fake login UI
 
-<img width="695" height="275" alt="login" src="https://github.com/user-attachments/assets/8d6ec1f5-874f-4c84-bbf7-fac46164b5aa" />
+
+<img width="695" height="275" alt="login" src="https://github.com/user-attachments/assets/762004f8-c35d-4152-be61-89e3dae1a760" />
+
 
 
 
 
 - admin page
 
- <img width="1087" height="933" alt="image" src="https://github.com/user-attachments/assets/5393c6f8-62da-4a2f-b8a4-a10942da7d3f" />
+
+<img width="1030" height="852" alt="admin" src="https://github.com/user-attachments/assets/51db241b-7bb7-43c1-a9a2-4c9708e92444" />
+
+
+ 
  
 
 
 - Screenshot of the deceptive dashboard
 
-   <img width="1060" height="771" alt="dashboard" src="https://github.com/user-attachments/assets/faf73894-481b-49bd-8f1e-09c44cb8386a" />
+
+
+<img width="1060" height="771" alt="dashboard" src="https://github.com/user-attachments/assets/ba19f2ac-ca1f-4e09-9319-de2abc06db2f" />
 
 
 
 
-  <img width="1072" height="817" alt="reset" src="https://github.com/user-attachments/assets/7e396d7b-449e-4a3f-a6f2-e1dbda92506e" />
+
+
+<img width="1072" height="817" alt="reset" src="https://github.com/user-attachments/assets/368e5512-8662-4745-9921-14954814b1f6" />
+
 
 
 
       
 - Sample of `attacks.log` entries
 
+
+<img width="1047" height="202" alt="logs" src="https://github.com/user-attachments/assets/629d1475-9d2a-43e3-b767-afcb662a6ed7" />
+
+
+
+
+
+
+<img width="657" height="128" alt="attack" src="https://github.com/user-attachments/assets/0934fe84-1256-4840-87d5-4d607161a666" />
+
+
+
+
+
+
+
+
+
+<img width="468" height="72" alt="logsreset" src="https://github.com/user-attachments/assets/15aae23f-7aef-4d32-95a5-599917fc62c0" />
+
+
+
+
+
+
+
+
+
+
  
-  <img width="1047" height="202" alt="logs" src="https://github.com/user-attachments/assets/efd285fd-4139-4964-8f1e-f31e15ffa977" />
-
-
-
-
-  <img width="657" height="128" alt="attack" src="https://github.com/user-attachments/assets/6e319a8f-3739-4e79-b69f-bfe8d1406dd6" />
-
-
-
-
-   <img width="468" height="72" alt="logsreset" src="https://github.com/user-attachments/assets/a924c36c-d1fa-4c36-a7e7-f39ce4de0c04" />
-
 
 ---
 
